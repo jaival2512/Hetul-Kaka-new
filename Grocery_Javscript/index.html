@@ -1,0 +1,1070 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grocery Wallah</title>
+    <link rel="icon" type="image/icon" href="https://img.freepik.com/premium-vector/gw-logo_745848-61.jpg">
+    <!-- <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" /> -->
+    <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Rozha+One&family=Ubuntu:wght@400;500;700&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+    <header class="header">
+        <!-- <img src="https://img.freepik.com/premium-vector/gw-logo_745848-61.jpg"  class="gw-img"> -->
+           
+        <a href="#" class="logo">
+            <i class="fa fa-shopping-basket" aria-hidden="true"></i>
+              Grocery Wallah
+        </a>
+        <nav class="navbar">
+            <a href="#home">Home</a>
+            <a href="#features">Features</a>
+            <a href="#products">Products</a>
+            <a href="#categories">Categories</a>
+            <a href="#review">Reviews</a>
+        </nav>
+        <div class="icons">
+            <div class="fa fa-bars" id="menu-btn"></div>
+            <div class="fa fa-search" id="search-btn"></div>
+            <div class="fa fa-shopping-cart" id="cart-btn"></div>
+            <div class="fa fa-user" id="login-btn"></div>
+        </div>
+        <form class="search-form">
+            <input type="search" id="search-box" placeholder="Search here...">
+            <label for="search-box" class="fa fa-search"></label>
+        </form>
+        <div class="shopping-cart">
+            <div class="box">
+                <i class="fa fa-trash"></i>
+                <img src="image/cart-img-1.png">
+                <div class="content">
+                    <h3>Watermelon</h3>
+                    <span class="price">Rs. 90/-</span>
+                    <span class="quantity">Qty : 1kg</span>
+                </div>
+            </div>
+            <div class="box">
+                <i class="fa fa-trash"></i>
+                <img src="image/cart-img-2.png">
+                <div class="content">
+                    <h3>Onion</h3>
+                    <span class="price">Rs. 40/-</span>
+                    <span class="quantity">Qty : 1kg</span>
+                </div>
+            </div>
+            <div class="box">
+                <i class="fa fa-trash"></i>
+                <img src="https://pngfre.com/wp-content/uploads/apple-poster.png" width="100px" height="100px">
+                <div class="content">
+                    <h3>Apple</h3>
+                    <span class="price">Rs. 175/-</span>
+                    <span class="quantity">Qty : 1kg</span>
+                    
+                </div>
+            </div>
+            <div class="total">total : Rs. 305/-</div>
+            <a href="#" class="btn">Checkout</a>
+        </div>
+        <form action="#" class="login-form">
+            <h3>Login Now</h3>
+            <input type="email" placeholder="your email" class="box">
+            <input type="password" placeholder="your password" class="box">
+            <p>Forget your Password 
+                <a href="#">Click Here</a>
+            </p>
+            <p>Don't have an account 
+                <a href="#">Create Now</a>
+            </p>
+            <input type="submit" value="Login Now" class="btn">
+        </form>
+    </header>
+
+    <!-- Home section -->
+    <section class="home" id="home">
+        <div class="content">
+            <h3>Fresh and <span>Organic</span> Products For You</h3>
+            <p>Enjoy Guaranteed Freshness From Farm To Table With Our Carefully Sourced And Curated Grocery Selections</p>
+            <a href="#" class="btn">Shop Now</a>
+        </div>
+    </section>
+
+     <!-- Features section -->
+    <section class="features" id="features">
+        <h1 class="heading">Our <span>Features</span></h1>
+        <div class="box-container">
+            <div class="box">
+                <img src="image\feature-img-1.png">
+                <h3>Fresh And Organic</h3>
+                <p>Enjoy fresh, organic food delivered straight to your doorstep daily</p>
+            </div>
+            <div class="box">
+                <img src="image\feature-img-2.png">
+                <h3>Free Delivery</h3>
+                <p>Free delivery on all orders, bringing convenience straight to you</p>
+            </div>
+            <div class="box">
+                <img src="image\feature-img-3.png">
+                <h3>Easy Payments</h3>
+                <p>Easy payments with multiple options, ensuring a hassle-free shopping experience</p>
+            </div>
+        </div>
+    </section>
+    <!-- Product section -->
+     <section class="products" id="products">
+        <h1 class="heading">
+            Our <span>Products</span>
+        </h1>
+        <div class="swiper product-slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide box">
+                    <img src="image\product-1.png" id="1">
+                    <h1 id="1">Fresh Orange</h1>
+                    <div class="price">Rs. 120</div>
+                    <div class="stars">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half"></i>
+                    </div>
+                    <input type="submit" value="Add To Cart" class="btn" data-product-id="1">
+                </div>
+                <div class="swiper-slide box">
+                    <img src="https://i.pinimg.com/originals/b8/39/3c/b8393ccd0f271772cc7d4796857637a9.jpg">
+                    <h1 id="1">Fresh Banana</h1>
+                    <div class="price">Rs. 120</div>
+                    <div class="stars">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half"></i>
+                    </div>
+                    <input type="submit" value="Add To Cart" class="btn" data-product-id="2">
+                </div>
+                <div class="swiper-slide box">
+                    <img src="https://pngfre.com/wp-content/uploads/apple-poster.png">
+                    <h1 id="1">Fresh Apple</h1>
+                    <div class="price">Rs. 120</div>
+                    <div class="stars">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half"></i>
+                    </div>
+                    <input type="submit" value="Add To Cart" class="btn" data-product-id="3">
+                </div>
+                <div class="swiper-slide box">
+                    <img src="https://img.freepik.com/premium-photo/ripe-yellow-mango-with-cut-half-green-leaf-isolated-white-background_252965-516.jpg" width="300px" height="300px">
+                    <h1 id="1">Fresh Mango</h1>
+                    <div class="price">Rs. 120</div>
+                    <div class="stars">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half"></i>
+                    </div>
+                    <input type="submit" value="Add To Cart" class="btn" data-product-id="4">
+                </div>
+                <div class="swiper-slide box">
+                    <img src="image\product-6.png">
+                    <h1 id="1">Fresh Avocado</h1>
+                    <div class="price">Rs. 120</div>
+                    <div class="stars">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half"></i>
+                    </div>
+                    <input type="submit" value="Add To Cart" class="btn" data-product-id="5">
+                </div>
+                <div class="swiper-slide box">
+                    <img src="https://i.pinimg.com/originals/34/f5/34/34f5343b879e591c5f35b3ef4d5c2895.jpg" width="300px" height="300px">
+                    <h1 id="1">Fresh Papaya</h1>
+                    <div class="price">Rs. 120</div>
+                    <div class="stars">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half"></i>
+                    </div>
+                    <input type="submit" value="Add To Cart" class="btn" data-product-id="6">
+                </div>
+                <div class="swiper-slide box">
+                    <img src="https://i.pinimg.com/736x/0f/5e/e5/0f5ee587a0d7400de8c62f59bd9aca5d.jpg" width="300px" height="300px">
+                    <h1 id="1">Fresh Pineapple</h1>
+                    <div class="price">Rs. 120</div>
+                    <div class="stars">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half"></i>
+                    </div>
+                    <input type="submit" value="Add To Cart" class="btn" data-product-id="7">
+                </div><div class="swiper-slide box">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSoKBWW0o-9uGxUZWMl7KxqG6EKtgqlbIx3mQ&s" width="300px" height="300px">
+                    <h1 id="1">Fresh Watermelon</h1>
+                    <div class="price">Rs. 120</div>
+                    <div class="stars">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half"></i>
+                    </div>
+                    <input type="submit" value="Add To Cart" class="btn" data-product-id="8">
+                </div>
+                <div class="swiper-slide box">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLDMhwuA5Cqczz_eJbI7P5MRyYgODrbwYnWg&s" width="300px" height="300px">
+                    <h1 id="1">Fresh Kiwi</h1>
+                    <div class="price">Rs. 120</div>
+                    <div class="stars">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half"></i>
+                    </div>
+                    <input type="submit" value="Add To Cart" class="btn" data-product-id="9">
+                </div>
+                <div class="swiper-slide box">
+                    <img src="https://i.pinimg.com/736x/f5/d6/54/f5d654bdf8aa2198d00dc2c7762db0bd.jpg" width="300px" height="300px">
+                    <h1 id="1">Fresh Grapes</h1>
+                    <div class="price">Rs. 120</div>
+                    <div class="stars">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half"></i>
+                    </div>
+                    <input type="submit" value="Add To Cart" class="btn" data-product-id="10">
+                </div>
+                <div class="swiper-slide box">
+                    <img src="https://previews.123rf.com/images/btk1977/btk19771206/btk1977120600004/13900514-fresh-strawberries-isolated-on-white-background.jpg" width="300px" height="300px">
+                    <h1 id="1">Fresh Strawberry</h1>
+                    <div class="price">Rs. 120</div>
+                    <div class="stars">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half"></i>
+                    </div>
+                    <input type="submit" value="Add To Cart" class="btn" data-product-id="11">
+                </div>
+                <div class="swiper-slide box">
+                    <img src="https://i.pinimg.com/736x/dc/5f/ec/dc5fecf04e4d9d257e03a7f23aeffc99.jpg" width="300px" height="300px">
+                    <h1 id="1">Fresh Litchi</h1>
+                    <div class="price">Rs. 120</div>
+                    <div class="stars">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half"></i>
+                    </div>
+                    <input type="submit" value="Add To Cart" class="btn" data-product-id="12">
+                </div>
+                <div class="swiper-slide box">
+                    <img src="https://media.istockphoto.com/id/1142120856/photo/whole-and-slices-guava-fruit-with-leaves-isolated-on-white-background.jpg?s=612x612&w=0&k=20&c=NJKW8qsCkVsxmJRDm4w4iDV82hcchNlRN6V41JT7LF0=" width="300px" height="300px">
+                    <h1 id="1">Fresh Guava</h1>
+                    <div class="price">Rs. 120</div>
+                    <div class="stars">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half"></i>
+                    </div>
+                    <input type="submit" value="Add To Cart" class="btn" data-product-id="13">
+                </div>
+            </div>
+        </div>
+        <div class="swiper product-slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide box">
+                    <img src="image\product-4.png">
+                    <h1 id="1">Fresh Cabbage</h1>
+                    <div class="price">Rs. 120</div>
+                    <div class="stars">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half"></i>
+                    </div>
+                    <input type="submit" value="Add To Cart" class="btn" data-product-id="14">
+                </div>
+                <div class="swiper-slide box">
+                    <img src="image\product-2.png">
+                    <h1 id="1">Fresh Onion</h1>
+                    <div class="price">Rs. 120</div>
+                    <div class="stars">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half"></i>
+                    </div>
+                    <input type="submit" value="Add To Cart" class="btn" data-product-id="15">
+                </div>
+                <div class="swiper-slide box">
+                    <img src="image\product-5.png">
+                    <h1 id="1">Fresh Potato</h1>
+                    <div class="price">Rs. 120</div>
+                    <div class="stars">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half"></i>
+                    </div>
+                    <input type="submit" value="Add To Cart" class="btn" data-product-id="16">
+                </div>
+                <div class="swiper-slide box">
+                    <img src="https://shop.purityprayag.com/cdn/shop/products/Bottle-Gourd--lagenaria-siceraria-isolated-on-white-background-shutterstock_352155842.jpg?v=1682143009&width=1946" width="300px" height="300px">
+                    <h1 id="1">Fresh Bottlegourd</h1>
+                    <div class="price">Rs. 120</div>
+                    <div class="stars">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half"></i>
+                    </div>
+                    <input type="submit" value="Add To Cart" class="btn" data-product-id="17">
+                </div>
+                <div class="swiper-slide box">
+                    <img src="https://thumbs.dreamstime.com/b/fresh-okra-gumbo-lady-s-finger-white-background-okra-gumbo-lady-s-finger-white-background-122343771.jpg" width="300px" height="300px">
+                    <h1 id="1">Fresh Lady Finger</h1>
+                    <div class="price">Rs. 120</div>
+                    <div class="stars">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half"></i>
+                    </div>
+                    <input type="submit" value="Add To Cart" class="btn" data-product-id="18">
+                </div>
+                <div class="swiper-slide box">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4swSpjfyD0CBLBJI6cgUySZtQiqoIsH-BqQ&s" width="300px" height="300px">
+                    <h1 id="1">Fresh Cauliflower</h1>
+                    <div class="price">Rs. 120</div>
+                    <div class="stars">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half"></i>
+                    </div>
+                    <input type="submit" value="Add To Cart" class="btn" data-product-id="19">
+                </div>
+                <div class="swiper-slide box">
+                    <img src="https://img.freepik.com/premium-photo/bitter-melon-bitter-gourd-white-background-with-clipping-path_47274-87.jpg" width="300px" height="300px">
+                    <h1 id="1">Fresh Bittergourd</h1>
+                    <div class="price">Rs. 120</div>
+                    <div class="stars">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half"></i>
+                    </div>
+                    <input type="submit" value="Add To Cart" class="btn" data-product-id="20">
+                </div>
+                <div class="swiper-slide box">
+                    <img src="https://static.vecteezy.com/system/resources/previews/004/171/947/non_2x/eggplant-isolated-on-a-white-background-photo.jpg" width="300px" height="300px">
+                    <h1 id="1">Fresh Brinjal</h1>
+                    <div class="price">Rs. 120</div>
+                    <div class="stars">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half"></i>
+                    </div>
+                    <input type="submit" value="Add To Cart" class="btn" data-product-id="21">
+                </div>
+                <div class="swiper-slide box">
+                    <img src="https://img.freepik.com/premium-photo/fresh-green-peas-with-pods-isolated-white-background_252965-770.jpg" width="300px" height="300px">
+                    <h1 id="1">Fresh Peas</h1>
+                    <div class="price">Rs. 120</div>
+                    <div class="stars">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half"></i>
+                    </div>
+                    <input type="submit" value="Add To Cart" class="btn" data-product-id="22">
+                </div>
+                <div class="swiper-slide box">
+                    <img src="https://t3.ftcdn.net/jpg/02/99/43/48/360_F_299434842_UF1e0k44KUpkdtAEu0XbbPVnTHFuRwAm.jpg" width="300px" height="300px">
+                    <h1 id="1">Fresh Carrot</h1>
+                    <div class="price">Rs. 120</div>
+                    <div class="stars">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half"></i>
+                    </div>
+                    <input type="submit" value="Add To Cart" class="btn" data-product-id="23">
+                </div>
+                <div class="swiper-slide box">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSIptUBeOoPA-vYRgh19Okv5uWqBJrASYJddw&s" width="300px" height="300px">
+                    <h1 id="1">Fresh Tindora</h1>
+                    <div class="price">Rs. 120</div>
+                    <div class="stars">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half"></i>
+                    </div>
+                    <input type="submit" value="Add To Cart" class="btn" data-product-id="24">
+                </div>
+                <div class="swiper-slide box">
+                    <img src="https://t3.ftcdn.net/jpg/02/21/71/08/360_F_221710872_T4XcHOJslwykFteHlgPBf8PXglkAwiyG.jpg" width="300px" height="300px">
+                    <h1 id="1">Fresh Radish</h1>
+                    <div class="price">Rs. 120</div>
+                    <div class="stars">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half"></i>
+                    </div>
+                    <input type="submit" value="Add To Cart" class="btn" data-product-id="25">
+                </div>
+                <div class="swiper-slide box">
+                    <img src="https://t4.ftcdn.net/jpg/01/38/59/65/360_F_138596527_vo9I8cKl20phDuIauIEfeQ2mWGw60Wjm.jpg" width="300px" height="300px">
+                    <h1 id="1">Fresh Broccoli</h1>
+                    <div class="price">Rs. 120</div>
+                    <div class="stars">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half"></i>
+                    </div>
+                    <input type="submit" value="Add To Cart" class="btn" data-product-id="26">
+                </div>
+                <div class="swiper-slide box">
+                    <img src="https://t3.ftcdn.net/jpg/02/95/67/48/360_F_295674852_DGl8KenKjNp15lI7WVEHIRhD5PVqYaGb.jpg" width="300px" height="300px">
+                    <h1 id="1">Fresh Sweet Potato</h1>
+                    <div class="price">Rs. 120</div>
+                    <div class="stars">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half"></i>
+                    </div>
+                    <input type="submit" value="Add To Cart" class="btn" data-product-id="27">
+                </div>
+                <div class="swiper-slide box">
+                    <img src="https://st2.depositphotos.com/1009329/9365/i/950/depositphotos_93650074-stock-photo-bunch-of-fresh-coriander-leaves.jpg" width="300px" height="300px">
+                    <h1 id="1">Fresh Coriander Leaves</h1>
+                    <div class="price">Rs. 120</div>
+                    <div class="stars">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half"></i>
+                    </div>
+                    <input type="submit" value="Add To Cart" class="btn" data-product-id="28">
+                </div>
+                
+            </div>
+        </div>
+
+        <!-- for packed items -->
+        <div class="swiper product-slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide box">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqQbZtoedtoka-3J9nEhYrmDzifuc7T4YR4Q&s">
+                    <h1 id="1">Maggi</h1>
+                    <div class="price">Rs. 120</div>
+                    <div class="stars">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half"></i>
+                    </div>
+                    <input type="submit" value="Add To Cart" class="btn" data-product-id="29">
+                </div>
+                <div class="swiper-slide box">
+                    <img src="https://i.pinimg.com/736x/93/fa/8e/93fa8e70028bd2e60a9f2ff00cf64605.jpg">
+                    <h1 id="1">Bournvita</h1>
+                    <div class="price">Rs. 120</div>
+                    <div class="stars">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half"></i>
+                    </div>
+                    <input type="submit" value="Add To Cart" class="btn" data-product-id="30">
+                </div>
+                <div class="swiper-slide box">
+                    <img src="https://rukminim2.flixcart.com/image/850/1000/kflftzk0hlty2aw-0/edible-oil/j/a/d/sunlite-refined-pouch-sunflower-oil-fortune-original-imafw33uhwkebr5j.jpeg?q=90&crop=false">
+                    <h1 id="1">Oil</h1>
+                    <div class="price">Rs. 120</div>
+                    <div class="stars">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half"></i>
+                    </div>
+                    <input type="submit" value="Add To Cart" class="btn" data-product-id="31">
+                </div>
+                <div class="swiper-slide box">
+                    <img src="https://5.imimg.com/data5/ZE/AT/RX/SELLER-3055311/suji-packing-pouch-500x500.jpg" width="300px" height="300px">
+                    <h1 id="1">Soji</h1>
+                    <div class="price">Rs. 120</div>
+                    <div class="stars">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half"></i>
+                    </div>
+                    <input type="submit" value="Add To Cart" class="btn" data-product-id="32">
+                </div>
+                <div class="swiper-slide box">
+                    <img src="https://m.media-amazon.com/images/I/61u8KxzeX0L.jpg" width="300px" height="300px">
+                    <h1 id="1">Soya Chunks</h1>
+                    <div class="price">Rs. 120</div>
+                    <div class="stars">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half"></i>
+                    </div>
+                    <input type="submit" value="Add To Cart" class="btn" data-product-id="33">
+                </div>
+                <div class="swiper-slide box">
+                    <img src="https://www.spencers.in/media/catalog/product/1/4/1409172_1.jpg" width="300px" height="300px">
+                    <h1 id="1">Biscuits</h1>
+                    <div class="price">Rs. 120</div>
+                    <div class="stars">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half"></i>
+                    </div>
+                    <input type="submit" value="Add To Cart" class="btn" data-product-id="34">
+                </div>
+                <div class="swiper-slide box">
+                    <img src="https://www.bigbasket.com/media/uploads/p/l/40053585_2-balaji-cream-onion-chips.jpg" width="300px" height="300px">
+                    <h1 id="1">Potato Chips</h1>
+                    <div class="price">Rs. 120</div>
+                    <div class="stars">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half"></i>
+                    </div>
+                    <input type="submit" value="Add To Cart" class="btn" data-product-id="35">
+                </div>
+                <div class="swiper-slide box">
+                    <img src="https://www.justgotochef.com/img/1544683916-Quaker-Oats-Front.jpg" width="300px" height="300px">
+                    <h1 id="1">Oats</h1>
+                    <div class="price">Rs. 120</div>
+                    <div class="stars">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half"></i>
+                    </div>
+                    <input type="submit" value="Add To Cart" class="btn" data-product-id="36">
+                </div>
+                <div class="swiper-slide box">
+                    <img src="https://5.imimg.com/data5/SELLER/Default/2023/6/320846453/EH/XL/NT/25022255/peanut-butter-crunchy-500x500.jpg" width="300px" height="300px">
+                    <h1 id="1">Peanut Butter</h1>
+                    <div class="price">Rs. 120</div>
+                    <div class="stars">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half"></i>
+                    </div>
+                    <input type="submit" value="Add To Cart" class="btn" data-product-id="37">
+                </div>
+                <div class="swiper-slide box">
+                    <img src="https://www.patanjaliayurved.net/assets/product_images/400x500/1690961755Honey250g1.png" width="300px" height="300px">
+                    <h1 id="1">Honey</h1>
+                    <div class="price">Rs. 120</div>
+                    <div class="stars">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half"></i>
+                    </div>
+                    <input type="submit" value="Add To Cart" class="btn" data-product-id="38">
+                </div>
+                <div class="swiper-slide box">
+                    <img src="https://www.bigbasket.com/media/uploads/p/l/266056-2_6-maggi-rich-tomato-ketchup.jpg" width="300px" height="300px">
+                    <h1 id="1">Tomato Ketchup</h1>
+                    <div class="price">Rs. 120</div>
+                    <div class="stars">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half"></i>
+                    </div>
+                    <input type="submit" value="Add To Cart" class="btn" data-product-id="39">
+                </div>
+                <div class="swiper-slide box">
+                    <img src="https://5.imimg.com/data5/SELLER/Default/2022/3/WQ/FT/ID/3642811/1kg-tata-salt-packet.jpg" width="300px" height="300px">
+                    <h1 id="1">Salt</h1>
+                    <div class="price">Rs. 120</div>
+                    <div class="stars">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half"></i>
+                    </div>
+                    <input type="submit" value="Add To Cart" class="btn" data-product-id="40">
+                </div>
+                <div class="swiper-slide box">
+                    <img src="https://www.jiomart.com/images/product/original/490861956/madhur-pure-hygienic-sugar-5-kg-product-images-o490861956-p490861956-0-202208221852.jpg?im=Resize=(420,420)" width="300px" height="300px">
+                    <h1 id="1">Sugar</h1>
+                    <div class="price">Rs. 120</div>
+                    <div class="stars">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half"></i>
+                    </div>
+                    <input type="submit" value="Add To Cart" class="btn" data-product-id="41">
+                </div>
+                
+                
+            </div>
+        </div>
+        <!-- for dairy product -->
+        <div class="swiper product-slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide box">
+                    <img src="https://www.bigbasket.com/media/uploads/p/xl/148715-2_2-amul-toned-milk.jpg">
+                    <h1 id="1">Milk</h1>
+                    <div class="price">Rs. 120</div>
+                    <div class="stars">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half"></i>
+                    </div>
+                    <input type="submit" value="Add To Cart" class="btn" data-product-id="42">
+                </div>
+                <div class="swiper-slide box">
+                    <img src="https://www.jiomart.com/images/product/original/491321586/amul-masti-dahi-200-g-cup-product-images-o491321586-p590032908-1-202203170612.jpg?im=Resize=(1000,1000)">
+                    <h1 id="1">Curd</h1>
+                    <div class="price">Rs. 120</div>
+                    <div class="stars">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half"></i>
+                    </div>
+                    <input type="submit" value="Add To Cart" class="btn" data-product-id="43">
+                </div>
+                <div class="swiper-slide box">
+                    <img src="https://www.jiomart.com/images/product/original/492642559/good-life-pure-ghee-1-l-carton-product-images-o492642559-p591057850-0-202203150348.jpg?im=Resize=(420,420)">
+                    <h1 id="1">Ghee</h1>
+                    <div class="price">Rs. 120</div>
+                    <div class="stars">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half"></i>
+                    </div>
+                    <input type="submit" value="Add To Cart" class="btn" data-product-id="44">
+                </div>
+                <div class="swiper-slide box">
+                    <img src="https://www.bigbasket.com/media/uploads/p/l/104759-2_5-amul-cheese-slices.jpg" width="300px" height="300px">
+                    <h1 id="1">Cheese</h1>
+                    <div class="price">Rs. 120</div>
+                    <div class="stars">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half"></i>
+                    </div>
+                    <input type="submit" value="Add To Cart" class="btn" data-product-id="45">
+                </div>
+                <div class="swiper-slide box">
+                    <img src="https://www.jiomart.com/images/product/original/590001683/amul-buttermilk-480-ml-pack-product-images-o590001683-p590041240-0-202401301656.jpg?im=Resize=(1000,1000)" width="300px" height="300px">
+                    <h1 id="1">Buttermilk</h1>
+                    <div class="price">Rs. 120</div>
+                    <div class="stars">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half"></i>
+                    </div>
+                    <input type="submit" value="Add To Cart" class="btn" data-product-id="46">
+                </div>
+                <div class="swiper-slide box">
+                    <img src="https://t4.ftcdn.net/jpg/03/22/55/57/360_F_322555727_zdf5142hYGHWuJHgx2zaMtNiL8kgK6k9.jpg" width="300px" height="300px">
+                    <h1 id="1">Chocolate</h1>
+                    <div class="price">Rs. 120</div>
+                    <div class="stars">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half"></i>
+                    </div>
+                    <input type="submit" value="Add To Cart" class="btn" data-product-id="47">
+                </div>
+                <div class="swiper-slide box">
+                    <img src="https://content.jdmagicbox.com/comp/def_content_category/havmor-ice-cream-parlours/screenshot-3-havmor-ice-cream-parlours-3-2g1n3.jpg" width="300px" height="300px">
+                    <h1 id="1">Ice cream</h1>
+                    <div class="price">Rs. 120</div>
+                    <div class="stars">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half"></i>
+                    </div>
+                    <input type="submit" value="Add To Cart" class="btn" data-product-id="48">
+                </div>
+                <div class="swiper-slide box">
+                    <img src="https://i.pinimg.com/736x/99/4d/94/994d942739a79b196fbd4db39234b3c5.jpg" width="300px" height="300px">
+                    <h1 id="1">Butter</h1>
+                    <div class="price">Rs. 120</div>
+                    <div class="stars">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half"></i>
+                    </div>
+                    <input type="submit" value="Add To Cart" class="btn" data-product-id="49">
+                </div>
+                <div class="swiper-slide box">
+                    <img src="https://5.imimg.com/data5/ANDROID/Default/2021/6/KN/QB/LE/130080087/product-jpeg-500x500.jpeg" width="300px" height="300px">
+                    <h1 id="1">Paneer</h1>
+                    <div class="price">Rs. 120</div>
+                    <div class="stars">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half"></i>
+                    </div>
+                    <input type="submit" value="Add To Cart" class="btn" data-product-id="50">
+                </div>
+                
+                
+            </div>
+        </div>
+        <!-- for grains and pulses -->
+        <div class="swiper product-slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide box">
+                    <img src="https://www.jiomart.com/images/product/original/490174095/loose-lokwan-grade-1-wheat-1-kg-product-images-o490174095-p490174095-0-202203170906.jpg?im=Resize=(420,420)">
+                    <h1 id="1">Wheat</h1>
+                    <div class="price">Rs. 120</div>
+                    <div class="stars">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half"></i>
+                    </div>
+                    <input type="submit" value="Add To Cart" class="btn" data-product-id="51">
+                </div>
+                <div class="swiper-slide box">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQN5d8hHGb4jGnIw5x-K0QLSPykinpen1V_ig&s">
+                    <h1 id="1">Rice</h1>
+                    <div class="price">Rs. 120</div>
+                    <div class="stars">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half"></i>
+                    </div>
+                    <input type="submit" value="Add To Cart" class="btn" data-product-id="52">
+                </div>
+                <div class="swiper-slide box">
+                    <img src="https://st2.depositphotos.com/5823990/11004/i/450/depositphotos_110047574-stock-photo-corn-grains-in-bag-isolated.jpg">
+                    <h1 id="1">Maize</h1>
+                    <div class="price">Rs. 120</div>
+                    <div class="stars">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half"></i>
+                    </div>
+                    <input type="submit" value="Add To Cart" class="btn" data-product-id="53">
+                </div>
+                <div class="swiper-slide box">
+                    <img src="https://png.pngtree.com/thumb_back/fw800/background/20220119/pngtree-closeup-of-a-pile-of-sorghum-jowar-on-a-white-background-photo-image_28892484.jpg" width="300px" height="300px">
+                    <h1 id="1">Jowar</h1>
+                    <div class="price">Rs. 120</div>
+                    <div class="stars">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half"></i>
+                    </div>
+                    <input type="submit" value="Add To Cart" class="btn" data-product-id="54">
+                </div>
+                <div class="swiper-slide box">
+                    <img src="https://t3.ftcdn.net/jpg/03/77/63/94/360_F_377639412_FOEg3T7ECckXYzDrKwagqJOwHODm4wR9.jpg" width="300px" height="300px">
+                    <h1 id="1">Moong</h1>
+                    <div class="price">Rs. 120</div>
+                    <div class="stars">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half"></i>
+                    </div>
+                    <input type="submit" value="Add To Cart" class="btn" data-product-id="55">
+                </div>
+                <div class="swiper-slide box">
+                    <img src="https://t4.ftcdn.net/jpg/04/37/04/43/360_F_437044374_RNILg4P5Di3J3iZrTBjaFeoPpC6p9mBQ.jpg" width="300px" height="300px">
+                    <h1 id="1">Toor</h1>
+                    <div class="price">Rs. 120</div>
+                    <div class="stars">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half"></i>
+                    </div>
+                    <input type="submit" value="Add To Cart" class="btn" data-product-id="56">
+                </div>
+                <div class="swiper-slide box">
+                    <img src="https://4.imimg.com/data4/OK/QN/GLADMIN-182927/moth-dal-500x500.jpg" width="300px" height="300px">
+                    <h1 id="1">Moth Beans</h1>
+                    <div class="price">Rs. 120</div>
+                    <div class="stars">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half"></i>
+                    </div>
+                    <input type="submit" value="Add To Cart" class="btn" data-product-id="57">
+                </div>
+                <div class="swiper-slide box">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTWyS7fm_qvYskVqlokITkOgApM02800Bs7Ng&s" width="300px" height="300px">
+                    <h1 id="1">Soyabean</h1>
+                    <div class="price">Rs. 120</div>
+                    <div class="stars">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half"></i>
+                    </div>
+                    <input type="submit" value="Add To Cart" class="btn" data-product-id="58">
+                </div>
+                <div class="swiper-slide box">
+                    <img src="https://5.imimg.com/data5/CS/MN/HU/SELLER-97618278/rajma-small-1--500x500.png" width="300px" height="300px">
+                    <h1 id="1">Rajma</h1>
+                    <div class="price">Rs. 120</div>
+                    <div class="stars">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half"></i>
+                    </div>
+                    <input type="submit" value="Add To Cart" class="btn" data-product-id="59">
+                </div>
+                <div class="swiper-slide box">
+                    <img src="https://img.freepik.com/premium-photo/split-chickpea-also-know-as-chana-dal-yellow-chana-split-peas-dried-chickpea-lentils-toor-dal-isolated-white-background_14349-532.jpg" width="300px" height="300px">
+                    <h1 id="1">Chana</h1>
+                    <div class="price">Rs. 120</div>
+                    <div class="stars">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half"></i>
+                    </div>
+                    <input type="submit" value="Add To Cart" class="btn" data-product-id="60">
+                </div>
+                
+            </div>
+        </div>
+     </section>
+
+     <!-- Categories section -->
+      <section class="categories" id="categories">
+        <h1 class="heading">Product <span>Categories</span></h1>
+        <div class="box-container">
+            <div class="box">
+                <img src="image\cat-1.png" width="400px" height="300px">
+                <h3>Fruits & Vegetables</h3>
+                <p>Upto 45% Off</p>
+                <a href="#" class="btn">Shop Now</a>
+            </div>
+            <div class="box">
+                <img src="https://www.indiafoodnetwork.in/wp-content/uploads/2020/03/cover-packed-foods.jpg" width="400px" height="300px">
+                <h3>Packed Food Items</h3>
+                <p>Upto 40% Off</p>
+                <a href="#" class="btn">Shop Now</a>
+            </div>
+            <div class="box">
+                <img src="https://img.freepik.com/premium-photo/different-fresh-dairy-products-isolated-white-background_185193-28131.jpg" width="400px" height="300px">
+                <h3>Dairy Products</h3>
+                <p>Upto 40% Off</p>
+                <a href="#" class="btn">Shop Now</a>
+            </div>
+            <div class="box">
+                <img src="https://s3.envato.com/files/336210345/3404_1.jpg" width="400px" height="300px">
+                <h3>Grains and Pulses</h3>
+                <p>Upto 50% Off</p>
+                <a href="#" class="btn">Shop Now</a>
+            </div>
+        </div>
+      </section>
+
+      <!-- Reviews section -->
+       <!-- Total reviews = 8 -->
+       <section class="review" id="review">
+            <h1 class="heading">Customer's<span>Review</span></h1>
+            <div class="swiper review-slider">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide box">
+                        <img src="image\pic-1.png">
+                        <p>I love shopping here! The fresh and organic food is fantastic, free delivery is a game-changer, and the easy payment options make checkout a breeze. Highly recommend this service</p>
+                        <h3>Jaival Choksi</h3>
+                        <div class="stars">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-half"></i>
+                        </div>
+                    </div>
+                    <div class="swiper-slide box">
+                        <img src="image\pic-2.png">
+                        <p>I had an excellent experience using the grocery online shopping platform. It’s user-friendly and provides a smooth checkout process with prompt delivery. Useful for convenient grocery shopping</p>
+                        <h3>Hetal Kanada</h3>
+                        <div class="stars">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-half"></i>
+                        </div>
+                    </div><div class="swiper-slide box">
+                        <img src="image\pic-3.png">
+                        <p>Fantastic grocery shopping experience! The platform is easy to use, offers efficient search and filtering, and the checkout process is seamless. Delivery was prompt and accurate. Highly satisfied</p>
+                        <h3>Dipak Prajapati</h3>
+                        <div class="stars">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-half"></i>
+                        </div>
+                    </div>
+                    <div class="swiper-slide box">
+                        <img src="image\pic-4.png">
+                        <p>Excellent platform for grocery shopping! The interface is intuitive, and I appreciated the advanced filtering options. Checkout was secure, and delivery was timely. Will definitely use it again</p>
+                        <h3>Nalini Shah</h3>
+                        <div class="stars">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-half"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+       </section>
+
+       <!-- Footer section -->
+       <section class="footer">
+            <div class="box-container">
+                <div class="box">
+                    <h3>Groco <i class="fa fa-shopping-basket" aria-hidden="true"></i> </h3>
+                    <p>Feel Free To Follow Us On Our Social Media Handlers All
+                        The Links Are Given Below</p>
+                    <div class="share">
+                        <a href="#" class="fa fa-facebook"></a>
+                        <a href="#" class="fa fa-twitter"></a>
+                        <a href="#" class="fa fa-instagram"></a>
+                        <a href="#" class="fa fa-linkedin"></a>
+                    </div>
+                </div>
+                <div class="box">
+                    <h3>Contact Info</h3>
+                    <a href="#" class="links"><i class="fa fa-phone"></i>+91 8780327844</a>
+                    <a href="#" class="links"><i class="fa fa-phone"></i>+91 8780327844</a>
+                    <a href="#" class="links"><i class="fa fa-envelope"></i>groceywallah@gmail.com</a>
+                    <a href="#" class="links"><i class="fa fa-map-marker"></i>Gujarat, India - 380063</a>
+                </div>
+                <div class="box">
+                    <h3>Quick Links</h3>
+                    <a href="#" class="links"><i class="fa fa-arrow-right"></i>Home</a>
+                    <a href="#" class="links"><i class="fa fa-arrow-right"></i>Features</a>
+                    <a href="#" class="links"><i class="fa fa-arrow-right"></i>Products</a>
+                    <a href="#" class="links"><i class="fa fa-arrow-right"></i>Categories</a>
+                    <a href="#" class="links"><i class="fa fa-arrow-right"></i>Reviews</a>
+                </div>
+                <div class="box">
+                    <h3>News Letter</h3>
+                    <p>Subscribe For Latest Updates</p>
+                    <input type="email" placeholder="Your Email" class="email">
+                    <input type="submit" value="Subscribe" class="btn">
+                    <img src="image\payment.png" class="payment-img">
+                </div>
+            </div>
+            <div class="credit">Created By <span>Hetul Kadiya</span> | All Rights Reserved</div>
+       </section>
+
+<!-- <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script> -->
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>

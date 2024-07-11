@@ -1,0 +1,154 @@
+import React from 'react';
+
+function App() {
+  return (
+    <div>
+      <header className="header">
+        <a href="#" className="logo">
+          <i className="fa fa-shopping-basket" aria-hidden="true"></i>
+          Grocery Wallah
+        </a>
+        <nav className="navbar">
+          <a href="#home">Home</a>
+          <a href="#features">Features</a>
+          <a href="#products">Products</a>
+          <a href="#categories">Categories</a>
+          <a href="#review">Reviews</a>
+        </nav>
+        <div className="icons">
+          <div className="fa fa-bars" id="menu-btn"></div>
+          <div className="fa fa-search" id="search-btn"></div>
+          <div className="fa fa-shopping-cart" id="cart-btn"></div>
+          <div className="fa fa-user" id="login-btn"></div>
+        </div>
+        <form className="search-form">
+          <input type="search" id="search-box" placeholder="Search here..." />
+          <label htmlFor="search-box" className="fa fa-search"></label>
+        </form>
+        <div className="shopping-cart">
+          <div className="box">
+            <i className="fa fa-trash"></i>
+            <img src="image/cart-img-1.png" alt="cart-item" />
+            <div className="content">
+              <h3>Watermelon</h3>
+              <span className="price">Rs. 90/-</span>
+              <span className="quantity">Qty : 1kg</span>
+            </div>
+          </div>
+          <div className="box">
+            <i className="fa fa-trash"></i>
+            <img src="image/cart-img-2.png" alt="cart-item" />
+            <div className="content">
+              <h3>Onion</h3>
+              <span className="price">Rs. 40/-</span>
+              <span className="quantity">Qty : 1kg</span>
+            </div>
+          </div>
+          <div className="box">
+            <i className="fa fa-trash"></i>
+            <img src="https://pngfre.com/wp-content/uploads/apple-poster.png" width="100px" height="100px" alt="cart-item" />
+            <div className="content">
+              <h3>Apple</h3>
+              <span className="price">Rs. 175/-</span>
+              <span className="quantity">Qty : 1kg</span>
+            </div>
+          </div>
+          <div className="total">total : Rs. 305/-</div>
+          <a href="#" className="btn">Checkout</a>
+        </div>
+        <form action="#" className="login-form">
+          <h3>Login Now</h3>
+          <input type="email" placeholder="your email" className="box" />
+          <input type="password" placeholder="your password" className="box" />
+          <p>Forget your Password <a href="#">Click Here</a></p>
+          <p>Don't have an account <a href="#">Create Now</a></p>
+          <input type="submit" value="Login Now" className="btn" />
+        </form>
+      </header>
+
+      {/* Home section */}
+      <section className="home" id="home">
+        <div className="content">
+          <h3>Fresh and <span>Organic</span> Products For You</h3>
+          <p>Enjoy Guaranteed Freshness From Farm To Table With Our Carefully Sourced And Curated Grocery Selections</p>
+          <a href="#" className="btn">Shop Now</a>
+        </div>
+      </section>
+
+      {/* Features section */}
+      <section className="features" id="features">
+        <h1 className="heading">Our <span>Features</span></h1>
+        <div className="box-container">
+          <div className="box">
+            <img src="image/feature-img-1.png" alt="feature-img" />
+            <h3>Fresh And Organic</h3>
+            <p>Enjoy fresh, organic food delivered straight to your doorstep daily</p>
+            <a href="#" className="btn">Read More</a>
+          </div>
+          <div className="box">
+            <img src="image/feature-img-2.png" alt="feature-img" />
+            <h3>Free Delivery</h3>
+            <p>Free delivery on all orders, bringing convenience straight to you</p>
+            <a href="#" className="btn">Read More</a>
+          </div>
+          <div className="box">
+            <img src="image/feature-img-3.png" alt="feature-img" />
+            <h3>Easy Payments</h3>
+            <p>Easy payments with multiple options, ensuring a hassle-free shopping experience</p>
+            <a href="#" className="btn">Read More</a>
+          </div>
+        </div>
+      </section>
+
+      {/* Product section */}
+      <section className="products" id="products">
+        <h1 className="heading">Our <span>Products</span></h1>
+        <div className="swiper product-slider">
+          <div className="swiper-wrapper">
+            <div className="swiper-slide box">
+              <img src="image/product-1.png" alt="product-img" />
+              <h1>Fresh Orange</h1>
+              <div className="price">Rs. 120</div>
+              <div className="stars">
+                <i className="fa fa-star"></i>
+                <i className="fa fa-star"></i>
+                <i className="fa fa-star"></i>
+                <i className="fa fa-star"></i>
+                <i className="fa fa-star-half"></i>
+              </div>
+              <a href="#" className="btn">Add to Cart</a>
+            </div>
+            <div className="swiper-slide box">
+              <img src="image/product-2.png" alt="product-img" />
+              <h1>Fresh Onion</h1>
+              <div className="price">Rs. 120</div>
+              <div className="stars">
+                <i className="fa fa-star"></i>
+                <i className="fa fa-star"></i>
+                <i className="fa fa-star"></i>
+                <i className="fa fa-star"></i>
+                <i className="fa fa-star-half"></i>
+              </div>
+              <a href="#" className="btn">Add to Cart</a>
+            </div>
+            <div className="swiper-slide box">
+              <img src="image/product-3.png" alt="product-img" />
+              <h1>Fresh Apple</h1>
+              <div className="price">Rs. 175</div>
+              <div className="stars">
+                <i className="fa fa-star"></i>
+                <i className="fa fa-star"></i>
+                <i className="fa fa-star"></i>
+                <i className="fa fa-star"></i>
+                <i className="fa fa-star"></i>
+              </div>
+              <a href="#" className="btn">Add to Cart</a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  );
+}
+
+export default App;
